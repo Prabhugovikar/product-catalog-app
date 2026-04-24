@@ -1,0 +1,27 @@
+.cat-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 99px;
+  padding: 0.25rem 0.7rem;
+  border: 1px solid currentColor;
+}
+
+.cat-tag--md {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.9rem;
+}
+
+.cat-tag__icon {
+  font-size: 0.85em;
+  line-height: 1;
+}
+
+.cat-tag--cars      { color: var(--cars);      background: color-mix(in srgb, var(--cars) 10%, transparent); }
+.cat-tag--bikes     { color: var(--bikes);     background: color-mix(in srgb, var(--bikes) 10%, transparent); }
+.cat-tag--phones    { color: var(--phones);    background: color-mix(in srgb, var(--phones) 10%, transparent); }
+.cat-tag--computers { color: var(--computers); background: color-mix(in srgb, var(--computers) 10%, transparent); }
